@@ -8,7 +8,7 @@ resource "aws_route53_record" "this" {
   type    = "A"
 
   alias {
-    name                   = data.aws_cloudfront_distribution.this.name
+    name                   = data.aws_cloudfront_distribution.this.domain_name
     zone_id                = data.aws_cloudfront_distribution.this.hosted_zone_id
     evaluate_target_health = var.evaluate_target_health
   }
