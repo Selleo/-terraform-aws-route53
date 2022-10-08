@@ -1,6 +1,6 @@
-# Terraform RENAME_ME module
+# Terraform Route53 module
 
-TODO
+Useful tiny modules for AWS Route53.
 
 <!-- BEGIN_TF_DOCS -->
 
