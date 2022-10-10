@@ -27,4 +27,10 @@
 | <a name="input_evaluate_target_health"></a> [evaluate\_target\_health](#input\_evaluate\_target\_health) | Whether to evalute target health for aws\_route53\_record. | `bool` | `false` | no |
 | <a name="input_name"></a> [name](#input\_name) | Record name | `string` | n/a | yes |
 | <a name="input_zone_id"></a> [zone\_id](#input\_zone\_id) | Route53 zone ID where entry will be added. | `string` | n/a | yes |
+
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| <a name="output_name"></a> [name](#output\_name) | Record name. |
 <!-- END_TF_DOCS -->
