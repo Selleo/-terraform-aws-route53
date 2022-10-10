@@ -1,5 +1,5 @@
 data "aws_lb" "this" {
-  id = var.lb_arn
+  arn = var.lb_arn
 }
 
 resource "aws_route53_record" "this" {
